@@ -3,7 +3,7 @@ local Real_Patch = string.sub(Check_Patch, 16)
 
 local function KeepT()
     _G.KeepOldPatch = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Project/main/Blackking.Project"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/Project/main/InkGame.lua"))()
 end
 
 local MainName = "Blackking - Client [Patch : " ..Real_Patch .."]"
